@@ -61,4 +61,3 @@ To do:
 ## Contact
 Created by [@elfsvet](https://github.com/elfsvet)
 - [LinkedIn](https://www.linkedin.com/in/stepanmatysik/)
-- [Email](stepanmatysik@gmail.com)
