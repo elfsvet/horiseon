@@ -40,7 +40,7 @@ $ code .
 - Title of images
 - Alternative information for an image
 ## Screenshots
-![Example screenshot](./img/digital-marketing-meeting.jpg)
+![Example screenshot](./assets/images/digital-marketing-meeting.jpg)
 
 
 ## Usage
