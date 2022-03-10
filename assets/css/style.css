@@ -1,29 +1,33 @@
-* {
+/* universal selector - selects all elements creates border box with no empty space from the content */
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* type selector - selects body and sets background color for everything inside the body to grey */
 body {
     background-color: #d9dcd6;
 }
-
+/* type selector - selects the header elements gives it padding around the header by 20
+font of any available to the computer it opened on
+background - blue and text color - white */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Descendant combinator - h1 is descendant of header ad this style will affect only h1 inside header element
+and let's have other elements inline with it but with the respect to it margin and padding */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Descendant combinator with class nested inside span element had been set gray color */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* gives nav nested in header padding space at the top of 15px and margin space at right side, keep it box to the right side with font selection and size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +35,26 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header nav ul {
+/* ul is a child of nav that has parent header, and removes from ul all circles/dots/characters in front of the text  */
+header nav ul { 
     list-style-type: none;
 }
-
+/* only affects the li elements nested in ul which in nav which in header, and lets it follow each content after another if there are enough space ad creates spacing to keep it clean and readable */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* type selector targets all a link's content and makes it text color white and removes any line what it has*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* type selector - affects all paragraphs and sets the font size to 16px, we can also use 1em which is equal 16px. */
 p {
     font-size: 16px;
 }
-
+/* class selector - starts with dot and can be used multiple times across the code -
+sets the box to the hight size and width 100% of this box content, adds border to the nex box at the bottom, sets image to the background, makes it fit inside the size we set before and keep it centred, so we have equal part cut out on right and left. */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +63,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* another class selector - helps as push content to the left and keep some space between element that follows */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* class selector makes opposite side of the one above. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* this class selector narrows the content of the box a little to create some space for our benefits . Lets have another box inline. and keeps away from the left side by 20px */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* class selector ...to be continue */
 .benefits {
     margin-right: 20px;
     padding: 20px;
