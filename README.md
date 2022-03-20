@@ -1,6 +1,6 @@
 # Horiseon project
 > Horiseon project. A website with some information.
-> Live demo [_here_](https://elfsvet.github.io/week01-challenge1/). 
+> Live demo [_here_](https://elfsvet.github.io/horiseon/). 
 
 ## Table of contents
 * [General info](#general-info)
@@ -31,7 +31,7 @@ To open this project in vscode using git in Terminal/Git Bash:
 
 ```
 $ cd ../Horiseon
-$ git clone https://github.com/elfsvet/week01-challenge1.git
+$ git clone https://github.com/elfsvet/horiseon.git
 $ code .
 ```
 
