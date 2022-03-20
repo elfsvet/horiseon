@@ -1,4 +1,4 @@
-# week01-challenge1
+# Horiseon project
 > Horiseon project. A website with some information.
 > Live demo [_here_](https://elfsvet.github.io/week01-challenge1/). 
 
